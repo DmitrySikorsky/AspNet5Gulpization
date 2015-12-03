@@ -1,0 +1,30 @@
+{
+  "authors": [
+    "Dmitry Sikorsky"
+  ],
+  "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel"
+  },
+  "dependencies": {
+    "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+    "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final"
+  },
+  "exclude": [
+    "wwwroot",
+    "node_modules",
+    "bower_components"
+  ],
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  },
+  "publishExclude": [
+    "node_modules",
+    "bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ],
+  "version": "1.0.0"
+}

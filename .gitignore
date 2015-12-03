@@ -1,0 +1,10 @@
+.svn/
+.vs/
+artifacts/
+src/AspNet5Gulpization/bower_components/
+src/AspNet5Gulpization/node_modules/
+src/AspNet5Gulpization/wwwroot/css/
+src/AspNet5Gulpization/wwwroot/js/
+src/AspNet5Gulpization/wwwroot/lib/
+*.user
+*.lock.json

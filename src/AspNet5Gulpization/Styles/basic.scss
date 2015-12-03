@@ -1,0 +1,29 @@
+﻿@import '_variables.scss';
+
+html, body {
+  color: $text-color;
+  font: $font;
+  margin: 0;
+  padding: 1%;
+}
+
+h1, h2, h3, p {
+  font-weight: normal;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+}
